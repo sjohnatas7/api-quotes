@@ -1,0 +1,15 @@
+module.exports = {
+    authSecret: '',
+    db: {
+        development:{
+            database: '',
+            user: '',
+            password: ''
+        },
+        test:{
+            database: '',
+            user: '',
+            password: ''
+        }
+    }
+}
