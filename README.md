@@ -89,7 +89,7 @@ To use this API, you will need to have the following installed:
 * PostgreSQL
 ## How to use
 1. Clone the repository
-``git clone https://github.com/[username]/[repository].git``
+``git clone https://github.com/sjohnatas7/api-quotes.git``
 2. Install the dependencies
 ``npm install``
 3. Updates the ``env_file`` to ``.env`` with your auth secret and your connection to database
