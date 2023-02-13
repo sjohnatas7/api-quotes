@@ -51,12 +51,14 @@ All endpoints return a JSON object in the response body. The specific properties
 {
   message: "Action conclude",
 }
+```
 #### Genaral bad response,
 ```
 {
   message: "Action not conclude",
   error: err
 }
+```
 #### SignUp
 ```
 {
@@ -88,17 +90,13 @@ To use this API, you will need to have the following installed:
 * NPM
 * PostgreSQL
 ## How to use
-1. Clone the repository
-``git clone https://github.com/sjohnatas7/api-quotes.git``
-2. Install the dependencies
-``npm install``
-3. Updates the ``env_file`` to ``.env`` with your auth secret and your connection to database
-4. Start the server
-``npm start``
-5. Use a tool like Postman to test the endpoints
-6. Create a new user through ``/signup`` and login in ``/signin``
-7. Set the bearer token
-8. Enjoy
+1. Clone the repository: `git clone https://github.com/sjohnatas7/api-quotes.git`
+2. Navigate to the repository: `cd api-quotes`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Make a POST request to `/signup` to create a new user
+6. Make a POST request to `/signin` to log in and receive a token
+7. Include the token in all subsequent requests to access the Quote and User endpoints
 
 ## Contribution
 Feel free to contribute to this project by submitting issues or creating pull requests.
