@@ -93,10 +93,12 @@ To use this API, you will need to have the following installed:
 1. Clone the repository: `git clone https://github.com/sjohnatas7/api-quotes.git`
 2. Navigate to the repository: `cd api-quotes`
 3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Make a POST request to `/signup` to create a new user
-6. Make a POST request to `/signin` to log in and receive a token
-7. Include the token in all subsequent requests to access the Quote and User endpoints
+4. Update the env_file to .env with the database coneection
+5. Run the migrations: `npx knex migrate:latest --env [mode]`
+6. Start the development server: `npm start`
+7. Make a POST request to `/signup` to create a new user
+8. Make a POST request to `/signin` to log in and receive a token
+9. Include the token in all subsequent requests to access the Quote and User endpoints
 
 ## Contribution
 Feel free to contribute to this project by submitting issues or creating pull requests.
